@@ -27,7 +27,7 @@ const   cnf = {
                 el:{
                     localeSelector:'select#localeSelector',
                     tagsInput:'.form-control#InputTags',
-                    submitButton:'form.form-inline button#SearchByTags',
+                    submitButton:'form.form-inline button#SearchByTags'
                 }
             }
         },
