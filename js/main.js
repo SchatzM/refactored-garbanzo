@@ -46,7 +46,7 @@ const   cnf = {
                     'welcomeBoardMSG':'<h4 class="alert-heading">Busqueda de imágenes en Flickr en base a etiquetas.</h4><p>Introduce etiquetas en el formulario superior y selecciona el mode de búsqueda.</p>',
                     'errorBoardMSG':'<h4 class="alert-heading">Sin Resultados.</h4><p>No se encontraron imágenes valídas.</p>',
                     'es-ES':'Castellano',
-                    'en-GB':'Inglés',
+                    'en-GB':'Inglés'
                 },
                 table:{
                     header:{
@@ -77,7 +77,7 @@ const   cnf = {
                     'welcomeBoardMSG':'<h4 class="alert-heading">Search images on Flickr based on tags.</h4><p>Please type in some space-separated tags in the firt input area of the form above and select de search mode in the second.</p>',
                     'errorBoardMSG':'<h4 class="alert-heading">Not found.</h4><p>No valid images found.</p>',
                     'es-ES':'Spanish',
-                    'en-GB':'English',
+                    'en-GB':'English'
                 },
                 table:{
                     header:{
