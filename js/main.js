@@ -36,14 +36,14 @@ const   cnf = {
                 UI:{
                     'awaLogo':'awa',
                     'tagsToSearch':'Etiquetas a buscar',
-                    'includeAllTags':'Que uncluya todas',
+                    'includeAllTags':'Que incluya todas',
                     'includeAnyTag':'Que incluya algunas',
                     'searchButton':'Buscar',
                     'error':'Error.',
-                    'noValidTagOnInput':'Intriduce etiquetas válidas.',
+                    'noValidTagOnInput':'Introduce etiquetas válidas.',
                     'noResults':'Sin resultados.',
                     'noValidImagesFound':'No se encontraron imágenes válidas.',
-                    'welcomeBoardMSG':'<h4 class="alert-heading">Busqueda de imágenes en Flickr en base a etiquetas.</h4><p>Introduce etiquetas en el formulario superior y selecciona el mode de búsqueda.</p>',
+                    'welcomeBoardMSG':'<h4 class="alert-heading">Búsqueda de imágenes en Flickr en base a etiquetas.</h4><p>Introduce etiquetas en el formulario superior y selecciona el mode de búsqueda.</p>',
                     'errorBoardMSG':'<h4 class="alert-heading">Sin Resultados.</h4><p>No se encontraron imágenes valídas.</p>',
                     'es-ES':'Castellano',
                     'en-GB':'Inglés'
@@ -74,7 +74,7 @@ const   cnf = {
                     'noValidTagOnInput':'Please input valid tags.',
                     'noResults':'No results.',
                     'noValidImagesFound':'Not valid images found.',
-                    'welcomeBoardMSG':'<h4 class="alert-heading">Search images on Flickr based on tags.</h4><p>Please type in some space-separated tags in the firt input area of the form above and select de search mode in the second.</p>',
+                    'welcomeBoardMSG':'<h4 class="alert-heading">Search images on Flickr based on tags.</h4><p>Please type in some space-separated tags in the first input area of the form above and select de search mode in the second.</p>',
                     'errorBoardMSG':'<h4 class="alert-heading">Not found.</h4><p>No valid images found.</p>',
                     'es-ES':'Spanish',
                     'en-GB':'English'
