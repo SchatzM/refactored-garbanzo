@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <meta name='description' content=''>
+    <meta name='author' content=''>
+
+    <title>Test</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href='vendor/bootstrap/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/open-iconic.min.css' rel='stylesheet'>
+    <link href='css/estilaco.css' rel='stylesheet'>
+  </head>
+  <body class="m-4">
+    <!-- Navigation -->
+    <nav class='navbar navbar-expand-lg navbar-light navBar fixed-top'>
+      <div class='container'>
+        <a class='navbar-brand' href='./'></a>
+        <form class="form-inline">
+          <div class='form-group mx-sm-3'>
+            <select class='form-control custom-select' id='localeSelector'>
+              <option value="0"></option>
+              <option value="1"></option>
+            </select>
+          </div>
+          <div class='form-group'>
+            <input type='text' class='form-control' id='InputTags' aria-describedby='tagsHelp' placeholder='' required>
+          </div>
+          <div class='form-group mx-sm-3'>
+            <select class='form-control custom-select' id='SearchMode'>
+              <option value="0"></option>
+              <option selected value="1"></option>
+            </select>
+          </div>
+          <button class='btn btn-dark' id='SearchByTags'></button>
+          <div class='spinner-border text-dark d-none' role='status'>
+            <span class='sr-only'>Loading...</span>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class='panel panel-default table-responsive bodyResults card'>
+      <div class="alert alert-warning" role="alert">
+        <h4 class="alert-heading">ci</h4>
+        <p>ola</p>
+      </div>
+    </div>
+    <div class='alertsContainer'>
+      <!-- jajá sí -->  
+    </div>
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+    <script src='js/main.js?v=3'></script>
+  </body>
+</html>
