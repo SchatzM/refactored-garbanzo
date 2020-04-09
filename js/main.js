@@ -113,7 +113,7 @@ $(document).ready(function() {
                                 })[langIndex],
                     varLocaleSet = localeSw(selectedLocale);
 
-            cnf.main.locale = localeSet(varLocaleSet);
+            cnf.main.locale = localeSet(varLocaleSet)
         });
     
         /**
@@ -127,8 +127,8 @@ $(document).ready(function() {
             } catch(err) {
                 insertErrorAlert(err)
             }
-        });
-    })();
+        })
+    })()
 });
 
 /**
